@@ -1,0 +1,35 @@
+{
+  "name": "redux-prevent-repeat-dispatch",
+  "version": "1.0.0",
+  "description": "A redux middleware to prevent dispatching of repeat actions for a specific period of time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./tests/**.spec.js",
+    "test:watch": "jest --verbose --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgabs/redux-prevent-repeat-dispatch.git"
+  },
+  "keywords": [
+    "redux",
+    "prevent",
+    "repeat",
+    "dispatch",
+    "actions",
+    "debounce",
+    "throttle"
+  ],
+  "author": "Rahul Gaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgabs/redux-prevent-repeat-dispatch/issues"
+  },
+  "homepage": "https://github.com/rgabs/redux-prevent-repeat-dispatch#readme",
+  "dependencies": {
+    "call-once-in-interval": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
